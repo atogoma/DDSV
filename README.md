@@ -1,5 +1,3 @@
 # DDSV
-De Novo Deletion Detection via Genomic Imaging and 
-Hybrid Attention Mechanisms
-
-<img width="3780" height="2835" alt="f1" src="https://github.com/user-attachments/assets/a1345eca-e155-4780-a4f7-d2e70f821c51" />
+De Novo Deletion Detection via Genomic Imaging and Hybrid Attention Mechanisms
+![fig1](https://github.com/user-attachments/assets/9e31cea4-3d3e-4c35-9952-72d50ab6a0e4)
