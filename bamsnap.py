@@ -60,7 +60,7 @@ for i in range(len(data)):
 				m_name = m.split('.')[0]
 				if f in crams and m in crams:
 					order_template = ("bamsnap "
-					                  f"-bam {f} {m} {child_bam} "
+					                  f"-bam {f} {m} {child_bam} "											
 					                  "-title 'father' 'mother' 'child' "
 					                  f"-pos {chr}:{start}-{end} "
 					                  "-bamplot coverage read "
@@ -68,7 +68,6 @@ for i in range(len(data)):
 					                  "-no_target_line "
 					                  "-show_soft_clipped "
 					                  "-read_color_by interchrom "
-					                  "-read_group strand"
 					                  "-save_image_only "
 					                  f"-out {path}/{sample_name}_{chr}_{start}_{end}_{f_name}_{m_name}.png "
 					                  "-ref ref/GRCh38_full_analysis_set_plus_decoy_hla.fa")
@@ -81,4 +80,5 @@ for i in range(len(data)):
 with open(output_file, 'w') as f:
 	for order in orders:
 		f.write(order + '\n')
+
 f.close()
